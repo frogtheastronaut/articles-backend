@@ -11,15 +11,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "slug": {
       "type": "uid",
       "targetField": "title"
     },
-    "content": {
-      "type": "text"
+    "title": {
+      "type": "string"
     },
     "author": {
       "type": "string"
@@ -27,15 +24,8 @@
     "publishDate": {
       "type": "date"
     },
-    "coverImage": {
-      "type": "media",
-      "multiple": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+    "content": {
+      "type": "richtext"
     }
   }
 }
